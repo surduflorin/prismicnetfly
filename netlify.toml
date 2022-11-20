@@ -1,9 +1,9 @@
 [build]
   command = "npm run dev"
-  publish = "/slices"
+  publish = ".slicemachine"
   base ="/"
 
 [[redirects]]
   from = "/*"
-  to = "/slices/index.js"
+  to = "slices/index.js"
   status = 200
